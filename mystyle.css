@@ -1,0 +1,140 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header section */
+header {
+    background-color: #f6f6fb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    font-family: "Tazugane Gothic Heavy", sans-serif; /* Apply Tazugane Gothic Heavy font to the header */
+    padding-bottom: 100px;
+}
+
+/* Style for the dark mode button */
+.dark-mode-button {
+    margin-right: auto;
+}
+
+/* Style for the main content section */
+main {
+    font-family: "Tazugane Gothic Heavy", sans-serif;
+    margin: 0;
+    padding: 1px;
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+/* Style for the dashboard section */
+.dashboard ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard {
+    margin-left: 40px; /* Add a left margin of 20px to the dashboard container */
+}
+
+/* Style for the overview-boxes section */
+.overview-boxes {
+    margin-left: 40px; /* Add a left margin of 20px to the overview-boxes container */
+}
+
+/* Style for the individual dashboard boxes */
+.dashboard li {
+    background-color: #bfcbd3;
+    border-radius: 10px; /* Add rounded corners */
+    padding-top: 10px;
+    flex: 1;
+    margin-right: 40px; /* Add space between the elements */
+}
+
+/* Style for the overview-boxes list */
+.overview-boxes ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap to multiple lines */
+    justify-content: center; /* Center the elements */
+    padding: 0;
+    list-style-type: none;
+}
+  
+/* Style for the individual overview-boxes */
+.overview-boxes li {
+    background-color: #bfcbd3;
+    padding-left: 10px;
+    flex-basis: calc(50% - 10px); /* Set the width of each element to 50% of the container, minus the space for margins */
+    margin-bottom: 20px; /* Space between the rows */
+}
+
+@media (min-width: 768px) {
+    /* Adjust the width to display four elements in each row on larger screens */
+    .overview-boxes li {
+        flex-basis: calc(15% - 10px);
+    }
+}
+
+/* Common style for both dashboard and overview-boxes elements */
+.dashboard li,
+.overview-boxes li {
+    background-color: #bfcbd3;
+    padding: 20px; /* Adjust internal spacing */
+    border-radius: 10px; /* Add rounded corners */
+    text-align: center; /* Center the content */
+}
+
+/* Border colors for specific social media platforms */
+.dashboard .Facebook {
+    border-top: 4px solid #258be0;
+}
+.dashboard .Twitter {
+    border-top: 4px solid #3ca4ca;
+}
+.dashboard .Instagram {
+    border-top: 4px solid orange;
+}
+.dashboard .Youtube {
+    border-top: 4px solid #b92849;
+}
+
+/* Additional styling for overview-boxes elements */
+.overview-boxes li {
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Adjust internal spacing */
+    margin-bottom: 20px; /* Space between elements */
+    margin-left: 20px; /* Adjust left margin */
+    margin-right: 20px; /* Adjust right margin */
+}
+
+/* Style for sections within overview-boxes elements */
+.overview-boxes li section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for text spans within overview-boxes elements */
+.overview-boxes li span {
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style for images within overview- asaaaaawboxes elements */
+.overview-boxes li img {
+    width: 10px; /* Adjust the width of the image */
+    height: 10px; /* Adjust the height of the image */
+}
+
+/* Footer styles */
+footer {
+    background-color: white; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+}
