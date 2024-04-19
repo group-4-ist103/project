@@ -10,24 +10,160 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter"
+    />
     <link rel="stylesheet" href="mystyle.css" />
     <script src="script.js" defer></script>
     <title>Group 4 Project - Social media dashboard with theme switcher</title>
   </head>
   <body>
-    Social Media Dashboard Total Followers: 23,004 Dark Mode @nathanf 1987
-    Followers 12 Today @nathanf 1044 Followers 99 Today @realnathanf 11k
-    Followers 1099 Today Nathan F. 8239 Subscribers 144 Today Overview - Today
-    Page Views 87 3% Likes 52 2% Likes 5462 2257% Profile Views 52k 1375%
-    Retweets 117 303% Likes 507 553% Likes 107 19% Total Views 1407 12%
+    <header>
+      <section>
+        <h1>Social Media Dashboard</h1>
+        <h2>Total Followers: 23,004</h2>
+      </section>
+      <section id="dark-mode-button">
+        <label class="switch"> 
+        </label><span id="legenda">Dark Mode</span>
+        <div id="switch-container">
+          <input id="switch-checkbox" type="checkbox" />
+          <div id="switch-label"></div>
+        </div>
+        </label>
+      </section>
+    </header>
+    <main>
+      <section class="dashboard">
+        <ul>
+          <li class="facebook_item">
+            <span><img src="images/icon-facebook.svg" />@nathanf</span>
+            <h1>1987</h1>
+            <h2>Followers</h2>
+            <p class="green_color"><img src="images/icon-up.svg" />12 Today</p>
+          </li>
+          <li class="twitter_item">
+            <span><img src="images/icon-twitter.svg" />@nathanf</span>
+            <h1>1044</h1>
+            <h2>Followers</h2>
+            <p class="green_color"><img src="images/icon-up.svg" />99 Today</p>
+          </li>
+          <li class="instagram_item">
+            <span><img src="images/icon-instagram.svg" />@realnathanf</span>
+            <h1>11k</h1>
+            <h2>Followers</h2>
+            <p class="green_color">
+              <img src="images/icon-up.svg" />1099 Today
+            </p>
+          </li>
+          <li class="youtube_item">
+            <span><img src="images/icon-youtube.svg" />Nathan F.</span>
+            <h1>8239</h1>
+            <h2>Subscribers</h2>
+            <p class="red_color"><img src="images/icon-down.svg" />144 Today</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="overview-boxes">
+        <h1>Overview - Today</h1>
+        <ul>
+          <li>
+            <section>
+              <span>Page Views</span>
+              <img src="images/icon-facebook.svg" />
+            </section>
+            <section>
+              <h1>87</h1>
+              <p class="green_color"><img src="images/icon-up.svg" />3%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span>Likes</span>
+              <img src="images/icon-facebook.svg" />
+            </section>
+            <section>
+              <h1>52</h1>
+              <p class="red_color"><img src="images/icon-down.svg" /> 2%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span> Likes </span>
+              <img src="images/icon-instagram.svg" />
+            </section>
+
+            <section>
+              <h1>5462</h1>
+              <p class="green_color"><img src="images/icon-up.svg" />2257%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span> Profile Views </span>
+              <img src="images/icon-instagram.svg" />
+            </section>
+            <section>
+              <h1>52k</h1>
+              <p class="green_color"><img src="images/icon-up.svg" />1375%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span> Retweets </span>
+              <img src="images/icon-twitter.svg" />
+            </section>
+            <section>
+              <h1>117</h1>
+              <p class="green_color"><img src="images/icon-up.svg" />303%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span> Likes </span>
+              <img src="images/icon-twitter.svg" />
+            </section>
+            <section>
+              <h1>507</h1>
+              <p class="green_color"><img src="images/icon-up.svg" />553%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span> Likes </span>
+              <img src="images/icon-youtube.svg" />
+            </section>
+            <section>
+              <h1>107</h1>
+              <p class="red_color"><img src="images/icon-down.svg" />19%</p>
+            </section>
+          </li>
+          <li>
+            <section>
+              <span>Total Views</span>
+              <img src="images/icon-youtube.svg" />
+            </section>
+            <section>
+              <h1>1407</h1>
+              <p class="red_color"><img src="images/icon-down.svg" /> 12%</p>
+            </section>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <!-- Project credits -->
     <footer>
       <div class="attribution">
         Challenge prepared by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name(s) Here</a>.
+          >Sergey Karavaev</a
+        >. Coded by
+        <a href="https://github.com/group-4-ist103"
+          >Ana Azevedo, Halan Marques, Kilian Flores, Octavio Lobo</a
+        >.
       </div>
     </footer>
   </body>
