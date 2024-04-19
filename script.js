@@ -39,7 +39,7 @@ switch_container.addEventListener("click", function () {
   }
 });*/
 let switch_checkbox = document.getElementById("switch-checkbox");
-let span = document.querySelector("dark-mode-button span");
+let span = document.querySelector("#dark-mode-button span");
 let switch_container = document.getElementById("switch-container");
 
 switch_container.addEventListener("click", () => {
