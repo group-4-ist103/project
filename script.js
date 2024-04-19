@@ -40,7 +40,7 @@ switch_container.addEventListener("click", function () {
 });*/
 let switch_checkbox = document.getElementById("switch-checkbox");
 let span = document.getElementById("legenda");
-let switch_container = document.getElementById("switch-container");
+let switch_container = document.querySelector("#dark-mode-button span");
 
 switch_container.addEventListener("click", () => {
   switch_checkbox.checked = !switch_checkbox.checked;
